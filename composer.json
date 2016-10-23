@@ -1,0 +1,20 @@
+{
+    "name": "root/gh2016",
+    "description": "for GeekHub",
+    "type": "project",
+    "require": {
+        "php": ">=5.3",
+        "brightlocal/php-crawler": "dev-master",
+        "smarty/smarty": "^3.1"
+    },
+    "require-dev": {
+        "windwalker/test": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "Alexey Panteleychuk",
+            "email": "Alexey.panteleychuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

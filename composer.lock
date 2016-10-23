@@ -1,0 +1,190 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f17bb5467425b6e60e26db592db6d4da",
+    "content-hash": "347851d0d9006fe5d8b67225d6e61bd1",
+    "packages": [
+        {
+            "name": "brightlocal/php-crawler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BrightLocal/PhpCrawler.git",
+                "reference": "915c430c698ae4416bb4cc7143a3d66254f16ed8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BrightLocal/PhpCrawler/zipball/915c430c698ae4416bb4cc7143a3d66254f16ed8",
+                "reference": "915c430c698ae4416bb4cc7143a3d66254f16ed8",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "libs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "php crawler library",
+            "homepage": "https://github.com/BrightLocal/PhpCrawler",
+            "time": "2016-07-20 15:37:07"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "29cbe10857b77f7a2b8182d28b6aa380b0abc012"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/29cbe10857b77f7a2b8182d28b6aa380b0abc012",
+                "reference": "29cbe10857b77f7a2b8182d28b6aa380b0abc012",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-10-21 02:00:07"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "windwalker/environment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ventoviro/windwalker-environment.git",
+                "reference": "6609047983b282ff70314c838735ae5c6644bf6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ventoviro/windwalker-environment/zipball/6609047983b282ff70314c838735ae5c6644bf6d",
+                "reference": "6609047983b282ff70314c838735ae5c6644bf6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10"
+            },
+            "require-dev": {
+                "windwalker/test": "~3.0"
+            },
+            "type": "windwalker-package",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Windwalker\\Environment\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.0+"
+            ],
+            "description": "Windwalker Environment package",
+            "homepage": "https://github.com/ventoviro/windwalker-environment",
+            "keywords": [
+                "environment",
+                "framework",
+                "windwalker"
+            ],
+            "time": "2016-10-11 13:17:06"
+        },
+        {
+            "name": "windwalker/test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ventoviro/windwalker-test.git",
+                "reference": "38895eb3734db85fc57017e10d44490569625832"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ventoviro/windwalker-test/zipball/38895eb3734db85fc57017e10d44490569625832",
+                "reference": "38895eb3734db85fc57017e10d44490569625832",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10",
+                "windwalker/environment": "~3.0"
+            },
+            "type": "windwalker-package",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Windwalker\\Test\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.0+"
+            ],
+            "description": "Windwalker Test package",
+            "homepage": "https://github.com/ventoviro/windwalker-test",
+            "keywords": [
+                "framework",
+                "test",
+                "windwalker"
+            ],
+            "time": "2016-10-11 13:17:06"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "brightlocal/php-crawler": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.6"
+    },
+    "platform-dev": []
+}
